@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [CategoryController::class, 'create']);
 
 Route::get('/{id}', [ProductController::class, 'single_category']);
+// Aybergen Esbegrenov
